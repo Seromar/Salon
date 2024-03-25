@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>72c3df01-a861-4169-9d7d-e18eb2bfb6bb</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{e614c764-6d9e-4607-9337-b7073809a0bd};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>app.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <PythonDebugWebServerCommandArguments>--debug $(CommandLineArguments)</PythonDebugWebServerCommandArguments>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>Salon</Name>
+    <RootNamespace>Salon</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app.py" />
+    <Compile Include="routes.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="static\css\" />
+    <Folder Include="static\FONTSs\" />
+    <Folder Include="static\FONTSs\GOTHAM\" />
+    <Folder Include="static\FONTSs\icofont\" />
+    <Folder Include="static\FONTSs\icofont\fonts\" />
+    <Folder Include="static\FONTSs\MYRIAD\" />
+    <Folder Include="static\ICON\" />
+    <Folder Include="static\JS\" />
+    <Folder Include="static\" />
+    <Folder Include="static\content\" />
+    <Folder Include="static\fonts\" />
+    <Folder Include="static\scripts\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="static\css\null.css" />
+    <Content Include="static\css\style.css" />
+    <Content Include="static\FONTSs\.DS_Store" />
+    <Content Include="static\FONTSs\GOTHAM\demo.html" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Bold.eot" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Bold.ttf" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Bold.woff" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Bold.woff2" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Book.eot" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Book.ttf" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Book.woff" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Book.woff2" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Medium.eot" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Medium.ttf" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Medium.woff" />
+    <Content Include="static\FONTSs\GOTHAM\Gotham-Medium.woff2" />
+    <Content Include="static\FONTSs\GOTHAM\stylesheet.css" />
+    <Content Include="static\FONTSs\icofont\demo.html" />
+    <Content Include="static\FONTSs\icofont\fonts\icofont.eot" />
+    <Content Include="static\FONTSs\icofont\fonts\icofont.svg" />
+    <Content Include="static\FONTSs\icofont\fonts\icofont.ttf" />
+    <Content Include="static\FONTSs\icofont\fonts\icofont.woff" />
+    <Content Include="static\FONTSs\icofont\fonts\icofont.woff2" />
+    <Content Include="static\FONTSs\icofont\icofont.css" />
+    <Content Include="static\FONTSs\icofont\icofont.min.css" />
+    <Content Include="static\FONTSs\MYRIAD\MyriadPro-Regular.eot" />
+    <Content Include="static\FONTSs\MYRIAD\MyriadPro-Regular.ttf" />
+    <Content Include="static\FONTSs\MYRIAD\MyriadPro-Regular.woff" />
+    <Content Include="static\ICON\ABOUT_CHAR-W.png" />
+    <Content Include="static\ICON\ABOUT_ROW1-IMG.png" />
+    <Content Include="static\ICON\ABOUT_ROW3-IMG.png" />
+    <Content Include="static\ICON\ABOUT_ROW4-IMG.png" />
+    <Content Include="static\ICON\BLOG_BLOCK1-IMG.jpg" />
+    <Content Include="static\ICON\BLOG_BLOCK2-IMG.jpg" />
+    <Content Include="static\ICON\BLOG_BLOCK3-IMG.jpg" />
+    <Content Include="static\ICON\BLOG_CHAR-B.png" />
+    <Content Include="static\ICON\BURGER.png" />
+    <Content Include="static\ICON\CONNECT_BG.jpg" />
+    <Content Include="static\ICON\CONNECT_CHAR-C.png" />
+    <Content Include="static\ICON\creative_fon.png" />
+    <Content Include="static\ICON\CROSS.png" />
+    <Content Include="static\ICON\FEATURE_BG.jpg" />
+    <Content Include="static\ICON\FEATURE_PHONE.png" />
+    <Content Include="static\ICON\HEADER_BG.jpg" />
+    <Content Include="static\ICON\LOGO.ico" />
+    <Content Include="static\ICON\LOGO.png" />
+    <Content Include="static\ICON\NEWS_RIGHT-IMG.jpg" />
+    <Content Include="static\ICON\NOTES_PNG.png" />
+    <Content Include="static\ICON\TEAM_CHAR-T.png" />
+    <Content Include="static\ICON\TEAM_IMG-1.jpg" />
+    <Content Include="static\ICON\TEAM_IMG-2.jpg" />
+    <Content Include="static\ICON\TEAM_IMG-3.jpg" />
+    <Content Include="static\ICON\TEAM_IMG-4.jpg" />
+    <Content Include="static\JS\BURGER.js" />
+    <Content Include="static\JS\HEADER.js" />
+    <Content Include="static\JS\MAIN.js" />
+    <Content Include="requirements.txt" />
+    <Content Include="static\content\bootstrap.css" />
+    <Content Include="static\content\bootstrap.min.css" />
+    <Content Include="static\content\null.css" />
+    <Content Include="static\content\site.css" />
+    <Content Include="static\content\style.css" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="static\scripts\bootstrap.js" />
+    <Content Include="static\scripts\bootstrap.min.js" />
+    <Content Include="static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="static\scripts\jquery-1.10.2.js" />
+    <Content Include="static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="static\scripts\jquery.validate.js" />
+    <Content Include="static\scripts\jquery.validate.min.js" />
+    <Content Include="static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="static\scripts\modernizr-2.6.2.js" />
+    <Content Include="static\scripts\respond.js" />
+    <Content Include="static\scripts\respond.min.js" />
+    <Content Include="static\scripts\_references.js" />
+    <Content Include="views\about.tpl" />
+    <Content Include="views\contact.tpl" />
+    <Content Include="views\index.tpl" />
+    <Content Include="views\layout.tpl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.7</Version>
+      <Description>env (Python 3.7 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
