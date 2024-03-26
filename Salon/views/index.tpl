@@ -5,7 +5,6 @@
    <title>La'dom'</title>
    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
-   <link rel="icon" href="static/ICON/LOGO.ico" type="image/x-icon">
    <link rel="stylesheet" href="static/css/style.css">
    <link rel="stylesheet" href="static/FONTSs/icofont/icofont.css">
 
@@ -21,11 +20,9 @@
 
                   </div>
                   <div class="burger_menu">
-                     <a href="#" data-scroll='main_blog'>Страницы</a>
-                     <a href="#" data-scroll='main_feature'>Особенности</a>
-                     <a href="#" data-scroll='main_team'>Расширения</a>
-                     <a href="#" data-scroll='main_blog'>Учебные пособия</a>
-                     <a href="#" data-scroll='main_connect'>Свяжитесь с нами</a>
+                     <a href="#" data-scroll='main_blog'>О нас</a>
+                     <a href="#" data-scroll='main_team'>Связь</a>
+
                   </div>
                </div>
             </div>
@@ -152,14 +149,14 @@
                </div>
                <div class="news_top_right">
                   <div class="news_top_right-contain">
-                     <img src="ICON/NEWS_RIGHT-IMG.jpg" alt="">
+                     <img src="static/ICON/design.jpg" alt="Уникальный дизайн">
                   </div>
                </div>
             </div>
             <div class="news_bottom">
                <div class="news_bottom_left">
                   <div class="news_bottom_left-contain">
-                     <img src="ICON/NEWS_RIGHT-IMG.jpg" alt="">
+                    
                   </div>
                </div>
                <div class="news_bottom_right">
@@ -242,7 +239,7 @@
          </div>
          <div class="main_map">
             <iframe
-               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9396.93359125267!2d27.678270452742826!3d53.927597213922986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcebc6e60e0ab%3A0.81ecd7e5a05b76c4!2z0J_QkNCg0Jog0JLQq9Ch0J7QmtCY0KUg0KLQldCl0J3QntCb0J7Qk9CY0Jg!5e0!3m2!1sru!2sby!4v1618698779521!5m2!1sru!2sby"
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1396.5115217879923!2d30.322783965470954!3d59.873461501064085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696300995079e17%3A0x500d1a43dcf0f894!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LPRgdC60LjQuSDQs9C-0YHRg9C00LDRgNGB0YLQstC10L3QvdGL0Lkg0YLQtdGF0L3QvtC70L7Qs9C40YfQtdGB0LrQuNC5INC40L3RgdGC0LjRgtGD0YIg0J7QsdGJ0LXQttC40YLQuNC1IOKEliA0!5e0!3m2!1sru!2sru!4v1711434787431!5m2!1sru!2sru"
                width="100%" height="330" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
          </div>
       </div>
@@ -251,7 +248,7 @@
             <div class="footer_about">
                <a href="">О нас</a>
                <a href="">Связь</a>
-               <a href="">Помощь</a>
+               
             </div>
             <div class="footer_logo"></div>
             <div class="footer_links">
