@@ -118,7 +118,7 @@ body {
 .wrapper .header {
   width: 100%;
   height: 890px;
-  background: url(../ICON/HEADER_BG.jpg);
+  background: url(../ICON/fon2.png);    
   background-size: cover;
   background-attachment: fixed;
 }
@@ -157,22 +157,22 @@ body {
   z-index: 7;
 }
 
-.wrapper .header .header__content .header_burger .burger_content {
-  width: 40%;
-  height: 100%;
-  background-color: #11749e;
-  overflow: auto;
-}
+    .wrapper .header .header__content .header_burger .burger_content {
+        width: 40%;
+        height: 100%;
+        background-color: #795cce;
+        overflow: auto;
+    }
 
-.wrapper .header .header__content .header_burger .burger_content .burger_stopper {
-  width: 40%;
-  height: 80px;
-  background-color: #11749e;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
+        .wrapper .header .header__content .header_burger .burger_content .burger_stopper {
+            width: 40%;
+            height: 80px;
+            background-color: #795cce;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
 
 .wrapper .header .header__content .header_burger .burger_content .burger_menu {
   height: 250px;
@@ -371,15 +371,15 @@ body {
   opacity: 1;
 }
 
-.wrapper .header .header__content .header_main .header_title p {
-  color: #11749e;
-  font-family: Gotham;
-  font-size: 25px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 17.6px;
-  margin: 0 0 0 10px;
-}
+    .wrapper .header .header__content .header_main .header_title p {
+        color: #795cce;
+        font-family: Gotham;
+        font-size: 25px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 17.6px;
+        margin: 0 0 0 10px;
+    }
 
 .wrapper .header .header__content .header_main .header_scroll {
   width: 100%;
@@ -436,12 +436,12 @@ body {
   width: 100%;
 }
 
-.wrapper .main .main_about {
-  width: 100%;
-  height: 740px;
-  background-color: #11749e;
-  padding: 100px 0 0 0;
-}
+    .wrapper .main .main_about {
+        width: 100%;
+        height: 740px;
+        background-color: #795cce;
+        padding: 100px 0 0 0;
+    }
 
 .wrapper .main .main_about .about_content {
   max-width: 1200px;
@@ -518,7 +518,7 @@ body {
   width: 100%;
   height: 133px;
   background-color: #2e85aa;
-  background-image: url(../ICON/ABOUT_ROW1-IMG.png);
+  background-image: url(../ICON/1.png);
   border-radius: 65px;
   background-repeat: no-repeat;
   background-position: center;
@@ -576,7 +576,7 @@ body {
   width: 100%;
   height: 133px;
   background-color: #2e85aa;
-  background-image: url(../ICON/ABOUT_ROW1-IMG.png);
+  background-image: url(../ICON/4.png);
   border-radius: 65px;
   background-repeat: no-repeat;
   background-position: center;
@@ -634,7 +634,7 @@ body {
   width: 100%;
   height: 133px;
   background-color: #2e85aa;
-  background-image: url(../ICON/ABOUT_ROW3-IMG.png);
+  background-image: url(../ICON/2.png);
   border-radius: 65px;
   background-repeat: no-repeat;
   background-position: center;
@@ -692,7 +692,7 @@ body {
   width: 100%;
   height: 133px;
   background-color: #2e85aa;
-  background-image: url(../ICON/ABOUT_ROW4-IMG.png);
+  background-image: url(../ICON/3.png);
   border-radius: 65px;
   background-repeat: no-repeat;
   background-position: center;
@@ -1088,13 +1088,13 @@ body {
   max-width: 100%;
 }
 
-.wrapper .main .main_blog .blog_content .blog_blocks .blog_block1 .blog_block1-title p {
-  color: #11749e;
-  font-family: Gotham;
-  font-size: 18px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
+    .wrapper .main .main_blog .blog_content .blog_blocks .blog_block1 .blog_block1-title p {
+        color: #795cce;
+        font-family: Gotham;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
 
 .wrapper .main .main_blog .blog_content .blog_blocks .blog_block1 .blog_block1-subtitle p {
   color: #222222;
@@ -1141,13 +1141,13 @@ body {
   max-width: 100%;
 }
 
-.wrapper .main .main_blog .blog_content .blog_blocks .blog_block2 .blog_block2-title p {
-  color: #11749e;
-  font-family: Gotham;
-  font-size: 18px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
+    .wrapper .main .main_blog .blog_content .blog_blocks .blog_block2 .blog_block2-title p {
+        color: #795cce;
+        font-family: Gotham;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
 
 .wrapper .main .main_blog .blog_content .blog_blocks .blog_block2 .blog_block2-subtitle p {
   color: #222222;
@@ -1271,13 +1271,13 @@ body {
   opacity: 1;
 }
 
-.wrapper .main .main_notes {
-  width: 100%;
-  height: 350px;
-  background-color: #11749e;
-  padding: 130px 0 0 0;
-  overflow: hidden;
-}
+    .wrapper .main .main_notes {
+        width: 100%;
+        height: 350px;
+        background-color: #795cce;
+        padding: 130px 0 0 0;
+        overflow: hidden;
+    }
 
 .wrapper .main .main_notes .notes_content {
   max-width: 1200px;
@@ -1315,7 +1315,7 @@ body {
   max-width: 69px;
   width: 100%;
   height: 69px;
-  background: url(../ICON/NOTES_PNG.png) center no-repeat;
+  background: url(../ICON/4.png) center no-repeat;
 }
 
 .wrapper .main .main_notes .notes_content .notes_note1 .notes_note1-txt {
@@ -1451,41 +1451,41 @@ body {
           justify-content: space-between;
 }
 
-.wrapper .main .main_feature .feature_content .feature_inform .feature_infoblocks .feature_infoblock1 {
-  padding: 12px 0 0 20px;
-  max-width: 370px;
-  height: 38px;
-  background-color: #11749e;
-  color: #ffffff;
-  font-family: Gotham;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
+    .wrapper .main .main_feature .feature_content .feature_inform .feature_infoblocks .feature_infoblock1 {
+        padding: 12px 0 0 20px;
+        max-width: 370px;
+        height: 38px;
+        background-color: #795cce;
+        color: #ffffff;
+        font-family: Gotham;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
 
-.wrapper .main .main_feature .feature_content .feature_inform .feature_infoblocks .feature_infoblock2 {
-  padding: 12px 0 0 20px;
-  max-width: 400px;
-  height: 38px;
-  background-color: #11749e;
-  color: #ffffff;
-  font-family: Gotham;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
+    .wrapper .main .main_feature .feature_content .feature_inform .feature_infoblocks .feature_infoblock2 {
+        padding: 12px 0 0 20px;
+        max-width: 400px;
+        height: 38px;
+        background-color: #795cce;
+        color: #ffffff;
+        font-family: Gotham;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
 
-.wrapper .main .main_feature .feature_content .feature_inform .feature_infoblocks .feature_infoblock3 {
-  padding: 12px 0 0 20px;
-  max-width: 427px;
-  height: 38px;
-  background-color: #11749e;
-  color: #ffffff;
-  font-family: Gotham;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-}
+    .wrapper .main .main_feature .feature_content .feature_inform .feature_infoblocks .feature_infoblock3 {
+        padding: 12px 0 0 20px;
+        max-width: 427px;
+        height: 38px;
+        background-color: #795cce;
+        color: #ffffff;
+        font-family: Gotham;
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
 
 .wrapper .main .main_feature .feature_content .feature_phone img {
   width: auto;
@@ -1608,14 +1608,14 @@ body {
   padding: 20px 0 0 0;
 }
 
-.wrapper .main .main_team .team_content .team_blocks .team_block1 .team_block1-name p:first-child {
-  color: #11749e;
-  font-family: Gotham;
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin: 0 0 10px 0;
-}
+    .wrapper .main .main_team .team_content .team_blocks .team_block1 .team_block1-name p:first-child {
+        color: #795cce;
+        font-family: Gotham;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+    }
 
 .wrapper .main .main_team .team_content .team_blocks .team_block1 .team_block1-name p:last-child {
   color: #000000;
@@ -1665,14 +1665,14 @@ body {
   padding: 20px 0 0 0;
 }
 
-.wrapper .main .main_team .team_content .team_blocks .team_block2 .team_block2-name p:first-child {
-  color: #11749e;
-  font-family: Gotham;
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin: 0 0 10px 0;
-}
+    .wrapper .main .main_team .team_content .team_blocks .team_block2 .team_block2-name p:first-child {
+        color: #795cce;
+        font-family: Gotham;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+    }
 
 .wrapper .main .main_team .team_content .team_blocks .team_block2 .team_block2-name p:last-child {
   color: #000000;
@@ -1722,14 +1722,14 @@ body {
   padding: 20px 0 0 0;
 }
 
-.wrapper .main .main_team .team_content .team_blocks .team_block3 .team_block3-name p:first-child {
-  color: #11749e;
-  font-family: Gotham;
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin: 0 0 10px 0;
-}
+    .wrapper .main .main_team .team_content .team_blocks .team_block3 .team_block3-name p:first-child {
+        color: #795cce;
+        font-family: Gotham;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+    }
 
 .wrapper .main .main_team .team_content .team_blocks .team_block3 .team_block3-name p:last-child {
   color: #000000;
@@ -1805,7 +1805,7 @@ body {
 .wrapper .main .main_connect {
   width: 100%;
   height: 850px;
-  background: url(../ICON/CONNECT_BG.jpg);
+  background: url(../ICON/fon4.png);
   background-size: cover;
   background-attachment: fixed;
   padding: 130px 0 0 0;
