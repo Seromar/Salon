@@ -90,12 +90,14 @@
     <Content Include="static\ICON\creative_fon.png" />
     <Content Include="static\ICON\CROSS.png" />
     <Content Include="static\ICON\design.jpg" />
+    <Content Include="static\ICON\dostup.png" />
     <Content Include="static\ICON\FEATURE_BG.jpg" />
     <Content Include="static\ICON\FEATURE_PHONE.png" />
     <Content Include="static\ICON\fon.png" />
     <Content Include="static\ICON\fon2.png" />
     <Content Include="static\ICON\fon3.jpg" />
     <Content Include="static\ICON\fon4.png" />
+    <Content Include="static\ICON\fonnn.jpg" />
     <Content Include="static\ICON\HEADER_BG.jpg" />
     <Content Include="static\ICON\NEWS_RIGHT-IMG.jpg" />
     <Content Include="static\ICON\NOTES_PNG.png" />

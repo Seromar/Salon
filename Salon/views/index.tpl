@@ -32,38 +32,38 @@
                <div class="header__menu">
                   <ul class="header__menu-list">
                      <li class="header__menu-item">
-                        <a class="header__menu-link" href="#!">Главная</a>
+                        <a class="header__menu-link" href="#!"></a>
                      </li>
                      <li class="header__menu-item">
-                        <a class="header__menu-link" href="#!" data-scroll='main_blog'>Страницы</a>
+                        <a class="header__menu-link" href="#!" data-scroll='main_blog'></a>
                      </li>
                      <li class="header__menu-item">
-                        <a class="header__menu-link" href="#!" data-scroll='main_feature'>Особенности</a>
+                        <a class="header__menu-link" href="#!" data-scroll='main_feature'></a>
                      </li>
                      <li class="header__menu-item">
-                        <a class="header__menu-link" href="#!" data-scroll='main_team'>Расширения</a>
+                        <a class="header__menu-link" href="#!" data-scroll='main_team'></a>
                      </li>
                      <li class="header__menu-item">
-                        <a class="header__menu-link" href="#!" data-scroll='main_blog'>Учебные пособия</a>
+                        <a class="header__menu-link" href="#!" data-scroll='main_blog'></a>
                      </li>
                      <li class="header__menu-item">
-                        <a class="header__menu-link" href="#!" data-scroll='main_connect'>Свяжитесь с нами</a>
+                        <a class="header__menu-link" href="#!" data-scroll='main_connect'></a>
                      </li>
                   </ul>
                </div>
                <div class="header__social">
                   <ul class="header__social-list">
                      <li class="header__social-item">
-                        <a class="header__social-link" href="#!" class="header__social-link"></a>
+                        
                      </li>
                      <li class="header__social-item">
-                        <a class="header__social-link" href="#!" class="header__social-link"></a>
+                       
                      </li>
                      <li class="header__social-item">
-                        <a class="header__social-link" href="#!" class="header__social-link"></a>
+                       
                      </li>
                      <li class="header__social-item">
-                        <a class="header__social-link" href="#!" class="header__social-link"></a>
+                       
                      </li>
                   </ul>
 
@@ -156,7 +156,7 @@
             <div class="news_bottom">
                <div class="news_bottom_left">
                   <div class="news_bottom_left-contain">
-                    
+                    <img src="static/ICON/dostup.png" alt="Легкая доступность">
                   </div>
                </div>
                <div class="news_bottom_right">
@@ -173,44 +173,7 @@
             </div>
          </div>
          
-         <div class="main_team">
-            <div class="team_content">
-               <div class="team_title">
-                  <div class="team_title-title">
-                     <p>Наша команда</p>
-                  </div>
-                  <div class="team_title-subtitle">
-                    
-                  </div>
-               </div>
-               <div class="team_blocks">
-                  <div class="team_block1">
-                     <div class="team_block1-name">
-                        <p>Николай Крамесников</p>
-                        <p>Специалист-эксперт</p>
-                     </div>
-                  </div>
-                  <div class="team_block2">
-                     <div class="team_block2-name">
-                        <p>Григорий Роев</p>
-                        <p>Младщий специалист</p>
-                     </div>
-                  </div>
-                  <div class="team_block3">
-                     <div class="team_block3-name">
-                        <p>Радмир Канов</p>
-                        <p>Администратор</p>
-                     </div>
-                  </div>
-                  <div class="team_block4">
-                     <div class="team_block4-name">
-                        <p>Екатерина Попова</p>
-                        <p>Стилист</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+         
          <div class="main_connect">
             <div class="connect_content">
                <div class="connect_title">
