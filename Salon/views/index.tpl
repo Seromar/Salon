@@ -21,7 +21,7 @@
                   </div>
                   <div class="burger_menu">
                      <a href="/about" data-scroll='main_blog'>О нас</a>
-                     <a href="#" data-scroll='main_team'>Связь</a>
+                     <a href="/contact" data-scroll='main_team'>Связь</a>
 
                   </div>
                </div>
@@ -210,7 +210,7 @@
          <div class="footer_content">
             <div class="footer_about">
                <a href="/about">О нас</a>
-               <a href="">Связь</a>
+               <a href="/contact">Связь</a>
                
             </div>
             <div class="footer_logo"></div>
