@@ -27,20 +27,7 @@
 
 # СРЕДА ЗАПУСКА
 
-- Развертывание сервиса производится на Debian-like Linux (Debian 9+).
+- Развертывание сервиса производится на MacOS Sonoma.
 - Требуется установленный веб-сервер с поддержкой интерпретации PHP (версия 7.4+) (Apache, Nginx).
-- Требуется установленная СУБД MariaDB (версия 10+).
-- Требуется установленный пакет `name1` для работы с...
 
-# УСТАНОВКА
 
-1. Установка пакета `name`:
-
-```bash
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install name1
-sudo apt-get install mariadb-client mariadb-server
-git clone https://github.com/Sinclear/default_readme
-cd default_readme
-...
