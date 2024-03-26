@@ -2959,3 +2959,53 @@ body {
     padding: 12px 0 0 15px;
   }
 }
+
+
+/*Соня*/
+.thesis-head {
+    font-size: inherit;
+}
+
+.about-desc p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.about-desc h2 {
+    font-size: 24px;
+    color: #FF88C2;
+    font-weight: bold;
+}
+
+.about-des p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444;
+}
+
+.about-des h2 {
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+}
+
+.custom-heading {
+    font-size: 18px;
+    color: #444;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color: #FF88C2;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
