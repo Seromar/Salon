@@ -34,7 +34,7 @@
         <section id="about">
             <div class="row">
                 <div class="col-sm-6 salon-in-div salon-in-mainimg salon-in-mainimg-bg">
-                    <img src="/static/images/salon1.jpg" alt="LA'DOM'" class="img-responsive">
+                    <img src="/static/ICON/salon1.jpg" alt="LA'DOM'" class="img-responsive">
                 </div><!-- col -->
                 <div class="col-sm-12 col-md-6 salon-in-div salon-in-desc about-desc">
                     <div class="container">
