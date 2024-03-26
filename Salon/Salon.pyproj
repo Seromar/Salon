@@ -99,6 +99,7 @@
     <Content Include="static\ICON\HEADER_BG.jpg" />
     <Content Include="static\ICON\NEWS_RIGHT-IMG.jpg" />
     <Content Include="static\ICON\NOTES_PNG.png" />
+    <Content Include="static\ICON\salon1.jpg" />
     <Content Include="static\ICON\TEAM_IMG-1.jpg" />
     <Content Include="static\ICON\TEAM_IMG-2.jpg" />
     <Content Include="static\ICON\TEAM_IMG-3.jpg" />
