@@ -1,9 +1,6 @@
-"""
-Routes and views for the bottle application.
-"""
-
-from bottle import route, view
+from bottle import route, view, static_file
 from datetime import datetime
+from reviews import reviews  # Добавляем импорт reviews
 
 @route('/')
 @route('/home')
@@ -31,15 +28,5 @@ def about():
     return dict(
         title='About',
         message='Your application description page.',
-        year=datetime.now().year
-    )
-
-@route('/reviews')
-@view('reviews')
-def reviews():
-    """Renders the reviews page."""
-    return dict(
-        title='Reviews',
-        message='Customer reviews page.',
         year=datetime.now().year
     )

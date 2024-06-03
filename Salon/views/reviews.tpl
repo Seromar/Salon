@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static\css\styles.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
-    <title>Оставить отзыв</title>
+    <title>Отзывы</title>
 </head>
 <body>
     <div class="content">
         <div class="about-us">
-            <p>Оставьте свой отзыв</p>
+            <p>Отзывы</p>
         </div>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -22,13 +22,16 @@
         </div>
         <!-- Форма для отзыва -->
         <div class="review-form-container">
-            <form class="review-form">
+            <form class="review-form" action="/reviews" method="post">
                 <label for="name">Имя:</label>
                 <input type="text" id="name" name="name" required>
                 
                 <label for="phone">Телефон:</label>
                 <input type="tel" id="phone" name="phone" required>
-                
+                % if error:
+                    <p class="error">{{ error }}</p>
+                % end
+                <p class="error" id="phone-error"></p>
                 <label for="rating">Оценка:</label>
                 <input type="number" id="rating" name="rating" min="1" max="5" step="1" required>
                 
