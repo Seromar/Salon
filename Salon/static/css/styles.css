@@ -196,3 +196,75 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+.review-form-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+    .review-form label {
+        font-size: 18px;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .review-form input, .review-form textarea, .review-form button {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .review-form button {
+        background-color: #FF88C2;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .review-form button:hover {
+            background-color: #FF57A1;
+        }
+
+.review-cards-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.review-card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    background-color: #FFFFFF;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+    .review-card:hover {
+        transform: scale(1.05);
+    }
+
+    .review-card h3 {
+        font-size: 24px;
+        color: #444;
+        font-weight: bold;
+    }
+
+    .review-card p {
+        font-size: 18px;
+        color: #444;
+    }

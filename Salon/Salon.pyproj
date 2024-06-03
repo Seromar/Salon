@@ -114,6 +114,7 @@
     <Content Include="static\JS\bootstrap.min.js" />
     <Content Include="static\JS\BURGER.js" />
     <Content Include="static\JS\HEADER.js" />
+    <Content Include="views\reviews.tpl" />
     <None Include="static\JS\jquery.validate-vsdoc.js" />
     <None Include="static\JS\jquery-1.10.2.intellisense.js" />
     <Content Include="static\JS\jquery-1.10.2.js" />

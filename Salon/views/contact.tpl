@@ -60,18 +60,23 @@
                 loading="lazy" width="45" height="45">
                 <p>+7 (980)-370-12-87</p>
             </div>
+            <div class="review-button-container">
+                <button onclick="redirectToReviews()">Перейти к отзывам</button>
+            </div>
+            <script>
+                function redirectToReviews(){
+                    window.location.href='/reviews'
+                }
+            </script>
         </div>
     </div>
     
     <div class="footer_logo"></div>
-            <div class="footer_links">
-               <a href="" class="icofont-facebook"></a>
-               <a href="" class="icofont-twitter"></a>
-               <a href="" class="icofont-skype"></a>
-               <a href="" class="icofont-linkedin"></a>
-            </div>
-         </div>
-    
-    </body>
-    
+    <div class="footer_links">
+        <a href="" class="icofont-facebook"></a>
+        <a href="" class="icofont-twitter"></a>
+        <a href="" class="icofont-skype"></a>
+        <a href="" class="icofont-linkedin"></a>
+    </div>
+</body>
 </html>
