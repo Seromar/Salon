@@ -21,44 +21,46 @@
             </div>
         </div>
         <!-- Форма для отзыва -->
-        <div class="review-form-container">
-            <form class="review-form" action="/reviews" method="post" id="reviewForm">
-                <label for="name">Имя:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="phone">Телефон:</label>
-                <input type="tel" id="phone" name="phone" required>
-                <p class="error" id="phone-error"></p>
-                
-                <label for="rating">Оценка:</label>
-                <input type="number" id="rating" name="rating" min="1" max="5" step="1" required>
-                
-                <label for="review">Текст отзыва:</label>
-                <textarea id="review" name="review" rows="4" required></textarea>
-                
-                <button type="submit">Отправить</button>
-            </form>
-        </div>
-        
-        <!-- Карточки отзывов -->
-        <div class="review-cards-container">
-            % for card in review_cards:
-                <div class="review-card">
-                    <h3>{{ card['name'] }}</h3>
-                    <p>Телефон: {{ card['phone'] }}</p>
-                    <p>Оценка: {{ card['rating'] }}</p>
-                    <p>Текст отзыва: {{ card['text'] }}</p>
-                </div>
-            % end
-        </div>
-    </div>
+<div class="review-form-container">
+    <form class="review-form" action="/reviews" method="post" id="reviewForm">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
     
-    <div class="footer_logo"></div>
-    <div class="footer_links">
-        <a href="" class="icofont-facebook"></a>
-        <a href="" class="icofont-twitter"></a>
-        <a href="" class="icofont-skype"></a>
-        <a href="" class="icofont-linkedin"></a>
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <p class="error" id="phone-error"></p>
+    
+        <label for="rating">Оценка:</label>
+        <input type="number" id="rating" name="rating" min="1" max="5" step="1" required>
+    
+        <label for="review">Текст отзыва:</label>
+        <textarea id="review" name="review" rows="4" required></textarea>
+    
+        <button type="submit" class="submit-button">Отправить</button>
+    </form>
+</div>
+
+<!-- Надпись "Спасибо за честное мнение!" -->
+<div class="thank-you-message">
+    Спасибо за честное мнение!
+</div>
+
+<!-- Карточки отзывов -->
+<div class="review-cards-container">
+    % for card in review_cards:
+        <div class="review-card">
+            <h3>{{ card['name'] }}</h3>
+            <p>Оценка: {{ card['rating'] }}</p>
+            <p>{{ card['text'] }}</p>
+        </div>
+    % end
+</div>
+
+    
+    <div class="footer-text">
+            <p>&copy; Сеть салонов красоты LA'DOM', 2012 - 2024. Все права защищены.</p>
+            <p>Имеются противопоказания. Проконсультируйтесь с нашим специалистом. Все предложения и цены, указанные на сайте, носят информационный характер и не являются публичной офертой.</p>
+        </div>
     </div>
 
     <script>

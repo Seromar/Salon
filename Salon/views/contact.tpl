@@ -60,14 +60,6 @@
                 loading="lazy" width="45" height="45">
                 <p>+7 (980)-370-12-87</p>
             </div>
-            <div class="review-button-container">
-                <button onclick="redirectToReviews()">Перейти к отзывам</button>
-            </div>
-            <script>
-                function redirectToReviews(){
-                    window.location.href='/reviews'
-                }
-            </script>
         </div>
     </div>
     

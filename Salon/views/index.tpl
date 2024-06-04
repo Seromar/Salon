@@ -211,7 +211,7 @@
             <div class="footer_about">
                <a href="/about">О нас</a>
                <a href="/contact">Связь</a>
-               
+               <a href="/reviews">Отзывы</a>
             </div>
             <div class="footer_logo"></div>
             <div class="footer_links">
