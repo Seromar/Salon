@@ -22,7 +22,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="/" class="navbar-brand">LA'DOM' Салон красоты</a>
+                    <a href="/index" class="navbar-brand">LA'DOM' Салон красоты</a>
                 </div>
             </div>
         </div>

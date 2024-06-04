@@ -2,8 +2,21 @@ from bottle import route, request, response, view, template
 import json
 import os
 
+import re
+
 def is_valid_phone_number(phone):
-    return phone.startswith('+7') and len(phone) == 12 and phone[1:].isdigit()
+    if not phone.startswith('+7'):
+        return False
+    if len(phone) != 12:
+        return False
+    if not phone[1:].isdigit():
+        return False
+    if phone[2] not in '89':
+        return False
+    if re.search(r'(\d)\1{5,}', phone[1:]):
+        return False
+    return True
+
 
 def load_reviews_from_file(file_path):
     if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
