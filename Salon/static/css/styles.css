@@ -1,3 +1,4 @@
+
 .thesis-head {
     font-size: inherit;
 }
@@ -283,8 +284,22 @@ footer {
 .error {
     display: inline-block;
     color: red;
-    margin-left: 10px; /* Регулирует расстояние между полем "Телефон" и сообщением об ошибке */
     font-size: 14px;
-    margin-top: 5px;
+    margin-top;
     vertical-align: top;
 }
+.input-with-error {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+    .input-with-error .error {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        color: red;
+        font-size: 14px;
+        margin-top: 5px;
+        white-space: nowrap;
+    }

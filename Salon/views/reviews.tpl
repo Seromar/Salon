@@ -22,16 +22,14 @@
         </div>
         <!-- Форма для отзыва -->
         <div class="review-form-container">
-            <form class="review-form" action="/reviews" method="post">
+            <form class="review-form" action="/reviews" method="post" id="reviewForm">
                 <label for="name">Имя:</label>
                 <input type="text" id="name" name="name" required>
                 
                 <label for="phone">Телефон:</label>
                 <input type="tel" id="phone" name="phone" required>
-                % if error:
-                    <p class="error">{{ error }}</p>
-                % end
                 <p class="error" id="phone-error"></p>
+                
                 <label for="rating">Оценка:</label>
                 <input type="number" id="rating" name="rating" min="1" max="5" step="1" required>
                 
@@ -44,18 +42,14 @@
         
         <!-- Карточки отзывов -->
         <div class="review-cards-container">
-            <div class="review-card">
-                <h3>Имя</h3>
-                <p>Телефон: +7 (000) 000-00-00</p>
-                <p>Оценка: 5</p>
-                <p>Текст отзыва: Очень хороший салон!</p>
-            </div>
-            <div class="review-card">
-                <h3>Имя</h3>
-                <p>Телефон: +7 (000) 000-00-00</p>
-                <p>Оценка: 4</p>
-                <p>Текст отзыва: Доволен услугами!</p>
-            </div>
+            % for card in review_cards:
+                <div class="review-card">
+                    <h3>{{ card['name'] }}</h3>
+                    <p>Телефон: {{ card['phone'] }}</p>
+                    <p>Оценка: {{ card['rating'] }}</p>
+                    <p>Текст отзыва: {{ card['text'] }}</p>
+                </div>
+            % end
         </div>
     </div>
     
@@ -66,5 +60,14 @@
         <a href="" class="icofont-skype"></a>
         <a href="" class="icofont-linkedin"></a>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const phoneError = "{{ error }}";
+            if (phoneError) {
+                alert(phoneError);
+            }
+        });
+    </script>
 </body>
 </html>

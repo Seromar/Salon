@@ -51,6 +51,7 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="reviews.txt" />
     <Content Include="static\css\bootstrap.css" />
     <Content Include="static\css\bootstrap.min.css" />
     <Content Include="static\css\null.css" />
