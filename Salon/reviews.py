@@ -1,4 +1,4 @@
-from bottle import route, request, view, template
+from bottle import route, request, response, view, template
 import json
 import os
 
@@ -23,17 +23,15 @@ def save_review_to_file(file_path, review):
 @route('/reviews', method=['GET', 'POST'])
 @view('reviews')
 def reviews():
-    error = None
-    review_cards = load_reviews_from_file('reviews.json')
-
     if request.method == 'POST':
-        name = request.forms.getunicode('name')
-        phone = request.forms.getunicode('phone')
-        rating = request.forms.getunicode('rating')
-        review = request.forms.getunicode('review')
+        name = request.json.get('name')
+        phone = request.json.get('phone')
+        rating = request.json.get('rating')
+        review = request.json.get('review')
 
         if not is_valid_phone_number(phone):
-            error = 'Некорректный номер телефона. Он должен начинаться с +7 и содержать 11 цифр.'
+            response.content_type = 'application/json'
+            return json.dumps({'error': 'Некорректный номер телефона. Он должен начинаться с +7 и содержать 11 цифр.'})
         else:
             review_entry = {
                 'name': name,
@@ -43,6 +41,8 @@ def reviews():
             }
             save_review_to_file('reviews.json', review_entry)
             review_cards = load_reviews_from_file('reviews.json')
-            return template('reviews', error=None, review_cards=review_cards)
+            response.content_type = 'application/json'
+            return json.dumps({'error': None, 'review_cards': review_cards})
 
-    return dict(error=error, review_cards=review_cards)
+    review_cards = load_reviews_from_file('reviews.json')
+    return dict(error=None, review_cards=review_cards)

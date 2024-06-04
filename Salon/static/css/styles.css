@@ -44,7 +44,7 @@
     text-align: center;
     margin-top: 20px;
     padding: 20px;
-    background-color: #f8f9fa;
+    background-color: #fff;
 }
 
 /* Общие стили для всей страницы */
@@ -56,7 +56,7 @@ body, html {
 
 /* Стили для шапки */
 header {
-    background-color: #333;
+    background-color: #FF88C2;
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -321,4 +321,34 @@ footer {
     left: 50%;
     transform: translate(-50%);
 }
+/* styles.css */
+
+/* Цвет шапки */
+.navbar-inverse {
+    background-color: #FF88C2 !important; /* Розовый цвет */
+    border-color: #FF88C2 !important;
+}
+
+/* Стили для текста в шапке */
+.navbar-brand {
+    font-size: 24px !important; /* Увеличенный размер текста */
+    font-weight: bold !important; /* Жирный шрифт */
+    color: #fff !important; /* Белый цвет текста */
+}
+
+.navbar-nav > li > a {
+    font-size: 18px !important; /* Увеличенный размер текста для ссылок */
+    font-weight: bold !important; /* Жирный шрифт */
+    color: #fff !important; /* Белый цвет текста */
+}
+
+/* Прочие стили для шапки */
+.navbar .navbar-toggle {
+    border-color: #fff; /* Белый цвет для кнопок меню на мобильных устройствах */
+}
+
+.navbar .icon-bar {
+    background-color: #fff; /* Белый цвет для полосок кнопок меню на мобильных устройствах */
+}
+
 
